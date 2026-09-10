@@ -1,0 +1,68 @@
+ ==============================================================================
+# Python Bytecode & Cache (Speeds up execution, changes constantly)
+# ==============================================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==============================================================================
+# Virtual Environments (Massive directories, easily recreated locally)
+# ==============================================================================
+.venv/
+venv/
+env/
+ENV/
+pythonenv/
+
+# ==============================================================================
+# Environment Variables & Secrets (CRITICAL: Never commit API keys/passwords)
+# ==============================================================================
+.env
+.env.local
+.env.*
+!.env.example
+
+# ==============================================================================
+# Jupyter Notebooks & Data Science
+# ==============================================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==============================================================================
+# Distribution / Packaging (Generated when building packages)
+# ==============================================================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# IDEs and Text Editors (Personal configuration files)
+# ==============================================================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==============================================================================
+# Operating System Artifacts
+# ==============================================================================
+.DS_Store
+Thumbs.db
